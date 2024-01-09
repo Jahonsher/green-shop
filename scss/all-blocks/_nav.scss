@@ -1,0 +1,74 @@
+nav {
+    margin-left: 320px;
+        ol {
+             display: flex;
+             gap: 40px;
+                li {
+                    list-style: none;
+                    margin-top: 10px;
+                        .first {
+                            width: 50px;
+                            height: 4px;
+                            border-radius: 10px;
+                            background-color: green;
+                            margin-top: 10px;
+                            margin-left: -2px;
+                        }
+                        a {
+                            text-decoration: none;
+                            color: rgb(118, 118, 118);
+                            font-size: 18px;
+                        }
+                        a:hover {
+                            color: black;
+                            // font-weight: bold;
+                        }
+                }
+          
+    }
+}
+
+.right-two nav {
+    margin-top: -1200px;
+}
+
+.right-two nav ul {
+    display: flex;
+    gap: 80px;
+}
+
+.right-two nav ul li {
+    list-style: none;
+}
+
+.right-two nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.right-two nav ul li span {
+    font-size: 18px;
+    margin-left: 200px;
+}
+
+.right-two nav ul li a.green {
+    color: green;
+}
+
+.let-nav nav {
+    margin-top: 100px;
+    margin-left: -80px;
+    ol li a.g {
+        color: green;
+    }
+    .second {
+        width: 150px;
+        height: 4px;
+        border-radius: 10px;
+        background-color: green;
+        margin-top: 10px;
+        margin-left: -2px;
+    }
+}
+

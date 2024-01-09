@@ -1,0 +1,121 @@
+.footer {
+    width: 1200px;
+    height: 610px;
+    margin: 0 auto;
+    margin-top: 60px;
+        .footer_one {
+            width: 1149px;
+            height: 243px;
+            margin: 0 auto;
+            display: flex;
+                .footer_in {
+                    width: 204px;
+                    height: 230px;
+                    margin-top: 10px;
+                    margin-left: 50px;
+                }
+                .footer_In {
+                    width: 360px;
+                    height: 230px;
+                    margin-top: 10px;
+                    margin-left: 50px;
+                        div {
+                            display: flex;
+
+                                input {
+                                    width: 280px;
+                                    height: 40px;
+                                    border-radius: 10px;
+                                    border: 1px solid rgb(202, 202, 202);
+                                }
+                                .join {
+                                    width: 70px;
+                                    height: 40px;
+                                    background-color: rgb(79, 195, 79);
+                                    color: white;
+                                    font-weight: bold;
+                                    font-size: 18px;
+                                    border: 0px solid;
+                                }
+                        }
+                        
+                }
+        }
+        .footer_two {
+            width: 1200px;
+            height: 88px;
+            background-color: rgb(239, 238, 238);
+            display: flex;
+                .logo1 {
+                    width: 150px;
+                    margin-top: 10px;
+                    margin-left: 10px;
+                }
+                .locat {
+                    width: 20px;
+                    margin-left: 80px;
+                }
+                p {
+                    width: 176px;
+                    height: 44px;
+                    margin-top: 27px;
+                    margin-left: 8px;
+                }
+                h6 {
+                    margin-top: 34px;
+                    margin-left: 8px;
+                    font-size: 16px;
+                }
+        }
+        .footer_three {
+            width: 1200px;
+            height: 236px;
+            display: flex;
+                div {
+                    width: 130px;
+                    height: 236px;
+                    margin-left: 100px;
+                    margin-top: 30px;
+                    line-height: 30px;
+                        h5 {
+                            font-weight: bold;
+                            font-size: 18px;
+                        }
+                        p {
+                            margin-left: 20px;
+                        }
+                        .iconkalar {
+                            display: flex;
+                            height: 60px;
+                            margin-left: -20px;
+                                .btn1 {
+                                    width: 30px;
+                                    height: 30px;
+                                    padding-left: 8px;
+                                    padding-right: 25px;
+                                    border-radius: 8px;
+                                    border-radius: 0.5px solid gray;
+                                    margin-left: 20px;
+                                }
+                                .btn1:hover {
+                                    background-color: rgb(75, 162, 250);
+                                }
+                        }
+                        .viza {
+                            margin-top: -100px;
+                        }
+                }
+                .In {
+                    width: 250px;
+                    height: 236px;
+                    background-color: blue($color: #176787);
+                }
+        }
+        .footer_four {
+            width: 257px;
+            height: 30px;
+            margin: 0 auto;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+}

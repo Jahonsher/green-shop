@@ -1,0 +1,222 @@
+.logo_in {
+    width: 100px;
+    height: 40px;
+    margin-left: 50px;
+    background-color: green;
+    display: flex;
+    margin-left: 110px;
+    border: 1px solid green;
+    border-radius: 10px;
+    margin-top: -30px;
+        p {
+            color: white;
+            font-size: 17px;
+            margin-top: 8px;
+            margin-left: 5px;
+        }
+}
+
+.logo_in:hover {
+    border: 3px solid aqua;
+    background-color: rgb(67, 133, 67);
+}
+
+.btn_img {
+    width: 20px;
+    height: 20px;
+    margin-top: 8px;
+    margin-left: 5px; 
+}
+
+.main_btn {
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    background-color:rgb(31, 116, 31);
+    border-radius: 10px;
+    border: 1px solid rgb(31, 116, 31);
+    margin-top: 100px;
+}
+
+.main_btn:hover {
+    border: 3px solid aqua;
+    background-color: rgb(67, 133, 67);
+}
+
+.filter-btn {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    background-color:rgb(31, 116, 31);
+    border-radius: 10px;
+    border: 1px solid rgb(31, 116, 31);
+    margin-top: 20px;
+}
+
+.filter-btn:hover {
+    border: 3px solid aqua;
+    background-color: rgb(67, 133, 67);
+}
+
+.right-btns {
+    margin-top: 80px;
+    display: flex;
+    margin-left: 1000px;
+    gap: 10px;
+}
+
+.right-btns button {
+    width: 40px;
+    height: 40px;
+}
+
+.right-btns button.green {
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid green;
+}
+
+.right-btns button {
+    border-radius: 10px;
+    border: 1px solid green;
+}
+
+.right-btns button:hover {
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid green;
+}
+
+.info .right-info  button {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    background-color:rgb(31, 116, 31);
+    border-radius: 10px;
+    border: 1px solid rgb(31, 116, 31);
+}
+
+.sec-page .size {
+   margin-top: 330px;
+   margin-left: -610px;
+   button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid  darkgray;
+    color: gray;
+   }
+   button.s {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid green;
+    color: green;
+   }
+}
+
+.sec-page .sec-btn {
+    button {
+        width: 100px;
+        height: 40px;
+        text-align: center;
+        color: white;
+        background-color:rgb(31, 116, 31);
+        border-radius: 10px;
+        border: 1px solid rgb(31, 116, 31);
+    }
+    button.add {
+        width: 100px;
+        height: 40px;
+        text-align: center;
+        color: green;
+        background-color:white;
+        border-radius: 10px;
+        border: 1px solid rgb(31, 116, 31);
+    }
+    button:hover {
+        width: 100px;
+        height: 40px;
+        text-align: center;
+        color: green;
+        background-color:white;
+        border-radius: 10px;
+        border: 1px solid rgb(31, 116, 31);
+    }
+    button.add:hover {
+        width: 100px;
+        height: 40px;
+        text-align: center;
+        color: white;
+        background-color:rgb(31, 116, 31);
+        border-radius: 10px;
+        border: 1px solid rgb(31, 116, 31);
+    }
+   
+}
+
+.user_btn, .google, .facebook {
+    width: 358px;
+    height: 60px;
+    background-color: rgb(70, 163, 88, 100%);
+    margin-top: 25px;
+    border: 0px;
+    border-radius: 15px;
+        a {
+            color: wheat;
+            text-decoration: none;
+            font-size: 18px;
+        }
+}
+
+.register{
+    color: rgb(0, 110, 255);
+    text-decoration: none;
+    margin-left: 120px;
+}
+
+.google {
+    width: 358px;
+    height: 60px;
+    background-color: rgb(64, 134, 244, 100%);
+    border: 0px;
+    border-radius: 15px;
+        .google_img {
+            margin-top: 10px;
+            cursor: pointer;
+        }
+}
+
+.facebook {
+    width: 358px;
+    height: 60px;
+    background-color: rgb(59, 89, 153, 100%);
+    margin-top: 25px;
+    border: 0px;
+    border-radius: 15px;
+        .facebook_img {
+            cursor: pointer;
+        }
+}
+
+.already {
+    text-decoration: none;
+    color: rgb(0, 110, 255);
+    margin-left: 100px;
+}
+
+.filter {
+    width: 90px;
+    height: 35px;
+    background-color:  rgb(70, 163, 88, 100%);
+    color: white;
+    border: 0px solid;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 20px;
+}

@@ -1,0 +1,35 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="../css/main.css")
+        title user 1
+    body.user_body 
+        .user_box 
+            .user_container 
+                img(src="../images/logo/user_logo.svg", alt="green shop logo").icon_logo
+                h3 Create an account
+                br
+                br
+                input(type="text" placeholder="Usename")
+                br
+                br
+                input(type="email", name="" placeholder="Enter your email address")
+                br
+                br
+                input(type="password", name="" placeholder="Password")
+                br
+                br
+                input(type="password", name="" placeholder="Confirm Password")
+                button.user_btn 
+                    a(href="#")  Create an account
+                br
+                br
+                a(href="../html/user2.html").register Or register with 
+                br
+                br
+                include ./include/face&goog.pug
+                br
+                br
+                a(href="#").already Already have an account?  

@@ -1,0 +1,11 @@
+.product .let-product {
+    display: flex;
+    margin-top: 180px;
+    gap: 30px;
+    .one,.two,.three {
+        span {
+            color: green;
+        }
+        
+    }  
+}

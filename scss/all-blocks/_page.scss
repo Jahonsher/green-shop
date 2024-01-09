@@ -1,0 +1,71 @@
+ .sec-left img {
+    margin-top: 100px;
+    margin-left: -80px;
+}
+
+.sec-page .sec-right {
+    h3 {
+        margin-top: 100px;
+        margin-left: 100px;
+        font-size: 22px;
+    }
+    span {
+        color: green;
+        font-size: 18px;
+        margin-left: 100px;
+    }
+    span.customer {
+        margin-left: 400px;
+        color: darkgray;
+    }
+    h2 {
+        font-size: 18px;
+        margin-left: 100px;
+        margin-top: 40px;
+    }
+    p {
+        color: darkgray;
+        width: 570px;
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    h1 {
+        font-size: 18px;
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+}
+
+.sec-page {
+    display: flex;
+}
+
+.sec-page .sec-btn{
+    img {
+        margin-top: 400px;
+        margin-left: -130px;
+    }
+    button {
+        position: relative;
+        left: 30px;
+        top: -15px;
+    }
+}
+
+.sec-page .sku {
+    margin-top: 450px;
+    margin-left: -320px;
+    color: darkgray;
+}
+
+.sec-page .share {
+    margin-top: 530px;
+    margin-left: -180px;
+    img {
+        position: relative;
+        left: 180px;
+        top: -20px;
+        margin-left: 20px;
+    }
+
+}

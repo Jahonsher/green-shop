@@ -1,0 +1,231 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        <link rel="stylesheet" href="../css/main.css">
+        title Green Shop 
+    body 
+        //- HEADER START
+        .container  
+            header 
+                .logo    
+                    img(src="../images/logo/Logo.svg", alt="logo")                
+                nav 
+                    ol 
+                        li
+                            a(href="#" style="color:black")     Home
+                            .first
+                        li 
+                            a(href="../html/second.html")     Shop
+                        li 
+                            a(href="../html/third.html")     Plant Care
+                        li 
+                            a(href="#")     Blogs
+                .icon
+                    img(src=".././images/icon/search.svg", alt="icon")
+                    img(src=".././images/icon/basket.svg", alt="basket").icon_second
+                    a(href="../html/user2.html")     
+                        button.logo_in
+                            img(src="../images/icon/logo_in.svg", alt="logo in").btn_img
+                            p log in 
+            hr(style="margin-top:10px;")
+        //- MAIN STRAT
+        .container 
+            main
+                section.hero    
+                    .left 
+                        h4 Welcome to GreenShop
+                        h1.info LET'S  MAKE A
+                        h1.info BET TER
+                            span(style="color:green")  PLANET
+                        p.paragraph We are an online plant shop offering a wide range of cheap and trendy plants. Use 
+                        p.paragraph our plants to create an unique Urban Jungle. Order your favorite plants!
+                        button.main_btn SHOP NOW
+                    .right 
+                        img(src="../images/img/mayda gul.svg", alt="rasm").kichik
+                        img(src="../images/img/gul.svg", alt="rasm")
+                section.hero-two 
+                    .left-two 
+                        h3 Categories
+                        p.green  House Plants       
+                        p  Potter Plants       
+                        p  Seeds       
+                        p  Small Plants       
+                        p  Big Plants       
+                        p  Succulents       
+                        p  Trerrariums       
+                        p  Gardening       
+                        p  Accessories    
+
+                        span.green  (33)
+                        span  (12)
+                        span  (65)
+                        span  (39)
+                        span  (23)
+                        span  (17)
+                        span  (19)
+                        span  (13)
+                        span  (18) 
+                    .left-twobtn 
+                        h3 Price Range
+                        br
+                        img(src="../images/img/Line 6.png", alt="rasm")
+                        br
+                        p Price: 
+                           span $39 - $1230  
+                        button.filter-btn Filter
+                    .left-twothree
+                        h3 Size
+                        p Small
+                        p Medium
+                        p Large
+
+                        span (119)
+                        span (86)
+                        span (78)
+                    .left-twoimg 
+                        img(src="../images/img/Super Sale Banner.png", alt="rasm")
+                section.right-two
+                    nav 
+                       ul 
+                          li 
+                             a(href="#").green All Plants
+                          li 
+                             a(href="#") New Arrivals
+                          li 
+                             a(href="#") Sale
+                          li 
+                            span Short by: Default sorting
+
+                    .right-flowers 
+                        .one 
+                            img(src="../images/img/image 1.png", alt="")
+                            p Barberton Daisy
+                            span $119.00
+                        .two 
+                            img(src="../images/img/image 2.png", alt="")
+                            p Angel Wing Begonia
+                            span $169.00
+                        .three 
+                            img(src="../images/img/image 3.png", alt="")
+                            p African Violet
+                            span $199.00 
+                    .right-flower 
+                         .one 
+                            img(src="../images/img/01 3.png", alt="")
+                            p Beach Spider Lily
+                            span $129.00
+                         .two 
+                            img(src="../images/img/image 7.png", alt="")
+                            p Blushing Bromeliad
+                            span $139.00
+                         .three 
+                            img(src="../images/img/image 8.png", alt="")
+                            p Aluminum Plant
+                            span $179.00  
+
+                    .right-flowerend 
+                         .one 
+                            img(src="../images/img/image 9.png", alt="")
+                            p Bird's Nest Fern
+                            span $99.00
+                         .two 
+                            img(src="../images/img/image 10.png", alt="")
+                            p Broadleaf Lady Palm
+                            span $59.00
+                         .three 
+                            img(src="../images/img/product-20-320x320 1.png", alt="")
+                            p Chinese Evergreen
+                            span $39.00    
+                    .right-btns 
+                            button.green 1
+                            button 2
+                            button 3
+                            button 4
+                section.information 
+                    .right-info 
+                        img(src="../images/img/image 14.png", alt="")
+                        h3 Summer cactus & succulent
+                        p We are an online plant shop offering a wide range of cheap and trendy plants
+                    .left-info 
+                        img(src="../images/img/image 15.png", alt="")
+                        h3 Summer cactus & succulents            
+                        p We are an online plant shop offering a wide range of cheap and trendy plants
+
+                section.blog  
+                        img(src="../images/img/Blog.png", alt="")
+
+            //- FOOTER START            
+            footer.footer 
+                section.footer_one
+                    .footer_in 
+                        img(src="../images/img/qaqtus.jpg", alt="rasm") 
+                        h4.h4 Garden Care #[br]#[br]
+                        p We are an online plant shop offering a wide range of cheap and trendy plants.
+                    .footer_in 
+                        img(src="../images/img/qaqtus2.svg", alt="rasm")
+                        h4 Plant Renovation #[br]#[br]
+                        p We are an online plant shop offering a wide range of cheap and trendy plants.
+                    .footer_in 
+                        img(src="../images/img/qaqtus3.svg", alt="rasm") 
+                        h4 Watering Graden #[br] #[br]
+                        p We are an online plant shop offering a wide range of cheap and trendy plants.
+                    .footer_In 
+                        h4 Would you like to join newsletters? #[br]#[br]
+                        div 
+                            input(type="email", id="get" name="get" placeholder="enter your email address...")
+                            input(type="submit", value="join" id="get").join 
+                        br      
+                        p We usually post offers and challenges in newsletter. We’re your online houseplant destination. We offer a wide range of houseplants and accessories shipped directly from our (green)house to yours! 
+
+                section.footer_two
+                    img(src="../images/logo/Logo.svg", alt="logo").logo1  
+                    img(src="../images/icon/Location.svg", alt="icon").locat
+                    p 70 West Buckingham Ave. Farmingdale, NY 11735  
+                    img(src="../images/icon/Messages.svg", alt="icon").locat
+                    h6 contact@greenshop.com
+                    img(src="../images/icon/Calling.svg", alt="icon").locat
+                    h6 +88 01911 717 490
+
+                section.footer_three
+                    div 
+                        h5  My Account
+                        p My Account
+                        p Our stores
+                        p Contact us
+                        p Career
+                        p Specials
+
+                    div 
+                        h5 Help & Guide
+                        p Help Center
+                        p How to Buy
+                        p Shipping & Delivery
+                        p Product Policy
+                        p How to Return
+                    div 
+                        h5 Categories
+                        p House Plants
+                        p Potter Plants
+                        p Seeds
+                        p Small Plants
+                        p Accessories 
+                    div.In 
+                        h5 Social Media
+                        .iconkalar 
+                            button.btn1 
+                                 img(src="../images/icon/Facebook.svg", alt="icon")
+                            button.btn1
+                                 img(src="../images/icon/Instagram (1).svg", alt="icon")
+                            button.btn1
+                                 img(src="../images/icon/Twitter.svg", alt="icon")
+                            button.btn1 
+                                img(src="../images/icon/Linkedin.svg", alt="icon")
+                            button.btn1 
+                                img(src="../images/icon/Union.svg", alt="icon")
+                        h5 We accept
+                        img(src="../images/icon/viza.svg", alt="rasm").viza
+                h5.footer_four © 2021 GreenShop. All Rights Reserved.
+
+        
