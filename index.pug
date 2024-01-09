@@ -7,29 +7,7 @@ html(lang="en")
         title Green Shop 
     body 
         //- HEADER START
-        .container  
-            header 
-                .logo    
-                    img(src="../images/logo/Logo.svg", alt="logo")                
-                nav 
-                    ol 
-                        li
-                            a(href="#" style="color:black")     Home
-                            .first
-                        li 
-                            a(href="../html/second.html")     Shop
-                        li 
-                            a(href="../html/third.html")     Plant Care
-                        li 
-                            a(href="#")     Blogs
-                .icon
-                    img(src=".././images/icon/search.svg", alt="icon")
-                    img(src=".././images/icon/basket.svg", alt="basket").icon_second
-                    a(href="../html/user2.html")     
-                        button.logo_in
-                            img(src="../images/icon/logo_in.svg", alt="logo in").btn_img
-                            p log in 
-            hr(style="margin-top:10px;")
+        include ./include/header.pug
         //- MAIN STRAT
         .container 
             main
